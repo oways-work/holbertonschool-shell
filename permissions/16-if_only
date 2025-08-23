@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ld hello | grep ' guillaume ' | xargs -r chown vincent
+if [ "$(stat -c %U hello)" = "guillaume" ]
