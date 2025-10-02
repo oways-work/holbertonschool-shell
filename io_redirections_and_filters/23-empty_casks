@@ -1,2 +1,2 @@
 !#/bin/bash
-find . -emapty -exec basename {} +
+find . -empty -exec basename {} +
